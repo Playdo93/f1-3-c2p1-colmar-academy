@@ -1,0 +1,444 @@
+/* Universal */
+
+html {
+  font-size: 16px;
+  background-color: white;
+  font-family: helvetica;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+  margin-left: 24px;
+  margin-right:24px;
+}
+
+header div {
+  display: flex;
+}
+
+.ca {
+  font-size: 32px;
+  margin: 0;
+}
+
+nav.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 35%;
+}
+
+nav a {
+  text-decoration: none;
+    color: black;
+}
+
+header.content_title {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+nav.mobile-nav {
+  display: none;
+}
+
+/* learn something */
+
+div.content_learn {
+  background-color: rgb(219, 219, 219);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.media-container img {
+  display: block;
+  width: 100%;
+}
+
+.media-container {
+  width: 60%;
+  padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+
+a.btn {
+  background-color: rgb(155, 155, 155);
+  padding: 8px 135px;
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+  text-align: center;
+  width: 35%;
+  margin-top: 30px;
+}
+
+.content_learn .banner-content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem 0 0 24px;
+  justify-content: center;
+}
+
+.banner-content .learn1 {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h1.learn-1 {
+  font-size: 4em;
+}
+
+p.learn2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.banner-content p {
+    padding-bottom: 1.5rem;
+}
+
+/* practice */
+
+div.content_information {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+div.practice {
+  width: 60%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+}
+
+div.practice img {
+  width: 100%;
+}
+
+div.side-bar1 {
+  width: 40%;
+  padding: 16px 16px;
+}
+
+.orientation, .campus, .lecture{
+  display: flex;
+  height: 190px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.side-bar1 .text-content {
+  width: 65%;
+  padding-left: 20px;
+}
+
+div.side-bar1 img {
+  height: 160px;
+  width: 35%;
+  padding: 16px 16px;
+}
+
+h1.practice-h1 {
+  padding-top: 32px;
+  padding-bottom: 24px;
+  font-size: 2.5rem;
+}
+
+p.practice-p {
+  padding-bottom: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+h2.practice-h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h4.practice-h4 {
+  font-weight: bold;
+}
+
+p.practice-sb-p {
+  font-size: 1rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  line-height: 1.25rem;
+}
+
+a.practice-a {
+  color: blue;
+}
+
+div.lecture {
+  background-color: rgb(219, 219, 219);
+}
+
+/* start learning */
+
+div.content_learning {
+  background-color: rgb(155, 155, 155);
+  width: 100%;
+  height: 125vh;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 72px;
+}
+
+ul.class-list li {
+ width: 340px;
+ background-color: white;
+ margin-bottom: 32px;
+}
+
+.course-row1 {
+  display: flex;
+}
+
+.course-row2 {
+  display: flex;
+}
+
+.course {
+  flex-basis: 33%;
+  margin: 1rem;
+  background-color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content_learning h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 32px 0;
+  padding-top: 32px;
+}
+
+.class-list h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-top: 18px;
+  padding-left: 16px;
+}
+
+.class-list h4{
+  font-size: 1rem;
+  padding: 8px 0 8px 16px;;
+}
+
+.class-list p {
+  font-size: 1rem;
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+/* thesis */
+
+div.content_thesis {
+  width: 100%;
+}
+
+div.content_thesis h1 {
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+}
+
+div.content_thesis .flex-container {
+  display: flex;
+}
+
+div.thesis {
+  width: 60%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  align-items: stretch;
+}
+
+div.thesis video {
+  width: 100%;
+  padding: 0 24px 24px 24px;
+}
+
+div.side-bar {
+  width: 40%;
+  padding: 16px 16px;
+}
+
+div.side-bar img {
+  height: 140px;
+  width: 35%;
+  padding: 16px 16px;
+}
+
+img.thesis-sb-img {
+}
+
+.fisma, .now-then {
+  display: flex;
+  height: 170px;
+  align-items: center;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.side-bar .text-content {
+  width: 65%;
+  padding-left: 20px;
+  text-align: left;
+}
+
+
+h1.thesis-h1 {
+  padding-top: 32px;
+  padding-bottom: 24px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 24px;
+}
+
+h2.thesis-h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+h2.thesis-main-h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+  padding-left: 24px;
+}
+
+p.thesis-p {
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  padding-left: 24px;
+  line-height: 1.5rem;
+}
+
+p.thesis-sb-p {
+  padding-bottom: 2rem;
+  font-size: 1rem;
+}
+
+
+div.fisma {
+  background-color: rgb(219, 219, 219);
+}
+
+/* footer */
+footer {
+  display: flex;
+}
+
+footer p {
+  font-size: .75rem;
+}
+
+div.container-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 480px), (orientation: portrait)
+{
+  /* header */
+
+  .ca, .ca-logo {
+    display: none;
+  }
+
+  nav.nav {
+    display: none;
+  }
+
+  nav.mobile-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    height: 64px;
+    align-items: center;
+  }
+
+   /* learn something */
+
+   div.content_learn {
+     flex-direction: column;
+   }
+
+   img.banner {
+     width: 100%;
+   }
+
+
+   /* practice */
+
+  img.practice-img, h1.practice-h1, p.practice-p, h4.practice-h4 {
+    display: none;
+  }
+
+  div.content_information {
+    flex-direction: column;
+  }
+
+   /* courses  */
+
+   img.class-img, p.class-p, h4.class-h4 {
+     display: none;
+   }
+
+   div.content_learning {
+     background-color: white;
+   }
+
+   h2.class-h2 {
+     background-color: rgb(155, 155, 155);
+     padding: 16px 0 24px 16px;
+   }
+
+   /* thesis  */
+
+   h2.thesis-main-h2, p.thesis-p, div.side-bar {
+     display: none;
+   }
+
+   video {
+   }
+
+   /* footer  */
+
+   p.p-foot {
+     display: none;
+   }
+}
